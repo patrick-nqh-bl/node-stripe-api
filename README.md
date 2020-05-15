@@ -7,10 +7,14 @@
 
 > https://www.youtube.com/watch?v=QT3_zT97_1g
 
-2. Create a config/keys_dev.js file
+- Link devploy on Heroku:
 
+> https://node-stripe-api.herokuapp.com/
+
+2. Create a config/keys_dev.js file
 
         module.exports = {
           stripePublishableKey:'_YOUR_OWN_PUBLISHABLE_KEY_',
           stripeSecretKey:'_YOUR_OWN_SECRET_KEY_'
         }
+
